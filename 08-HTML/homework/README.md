@@ -14,9 +14,11 @@ I. Cree una página HTML básica.
       * un elemento h1 que contiene [Tu nombre].
       * un elemento h3 que contiene "Henry".
       * un elemento h4 que contiene "tarea de HTML / CSS".
+
     2. En el segundo div crea:
       * un elemento span que contiene texto que describe su comida favorita.
       * un elemento 'a' que se vincula a su restaurante favorito.
+      
     3. En el tercer div crea:
       * una lista desordenada con dos elementos dentro de la lista
       * una etiqueta img en cada elemento de la lista que se vincula a su comida favorita. (Use la búsqueda de imágenes de Google para encontrar una foto y copiar la dirección de la misma o sino puede usar esta: "https://i.picsum.photos/id/1080/400/200.jpg").

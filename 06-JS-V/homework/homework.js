@@ -9,16 +9,15 @@ function crearUsuario() {
   // Devuelve la clase
   // Tu código:
 
-  class Usuario {
-    constructor(opciones) {
-      this.usuario = opciones.usuario;
-      this.nombre = opciones.nombre;
-      this.email = opciones.email;
-      this.password = opciones.password;
-      this.saludar = function () {
-        return "Hola, mi nombre es " + this.nombre;
-      };
-    }
+  function Usuario(opciones) {
+    this.usuario = opciones.usuario;
+    this.nombre = opciones.nombre;
+    this.email = opciones.email;
+    this.password = opciones.password;
+      
+  }
+  Usuario.prototype.saludar = function () {
+    return 'Hola, mi nombre es '+this.nombre; 
   }
   return Usuario;
 }
@@ -91,7 +90,7 @@ function agregarMetodo() {
   //La función agrega un método "datos" a la clase Persona que toma el nombre y la edad de la persona y devuelve:
   //Ej: "Juan, 22 años"
  Persona.prototype.datos = function(){
-  return (this.nombre + ", " + this.edad + " años");
+  return (this.nombre +  ", "   + this.edad  +  " años") ;
  }
 
 }
