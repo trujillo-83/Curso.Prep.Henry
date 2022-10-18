@@ -1,0 +1,186 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(/08-HTML/img/comida2.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.divClass{
+  width: 330px;
+  min-height: 400px;
+  margin: 0 auto;
+  margin-top: 70px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.24);
+  background-image:  rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 74%, rgba(0,212,255,1) 100%);
+  background-size: 100% 150px ;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 1px;
+ 
+}
+
+.div_photo{
+  background-image: url("face.jpg");
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+  margin-top: 105px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+}
+
+.div_name{
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+
+.div_media{
+  margin-top: 40px;
+  width: 100%;
+  height: 90px;
+  border-top: 1px solid #b3a2a2;
+  display: flex;
+  justify-content: center;
+}
+
+
+.div_icon{
+  width: 35%;
+  height: 100%; 
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+
+
+.container_thirdDiv{
+  display: grid;
+  grid-template-columns:  1fr 1fr 1fr 1fr;
+
+}
+.thirdDiv{
+  background-color: #fff;
+  padding-bottom: 30px;
+  width: 270px;
+  margin: 30px;
+  display: inline-block;
+ 
+   
+}
+
+
+
+.thirdDiv_img{
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.thirdDiv_title{
+  text-align: center;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+  
+}
+
+.thirdDiv_paragrah {
+  text-align: start;
+  font-weight: 500;
+  margin-bottom: 20px;
+ padding: 15px;
+  
+   
+}
+.thirdDiv_date{
+  text-align: center;
+}
+
+.thirdDiv_enlace{
+  color: white;
+  background-color: #6095cd;
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 30px;
+  font-weight: 300;
+  border-radius: 10px;
+}
+
+button {
+  margin: 10px;
+position: relative;
+padding: 10px 15px;
+border: none;
+outline: none;
+background: #350642;
+color: #dcc2e4;
+cursor: pointer;
+transition: 0.5s;
+overflow: hidden;
+border-radius: 15px;
+}
+
+button:hover {
+color: #fff;
+background-color: chocolate;
+}
+
+button span {
+position: absolute;
+background: #fff;
+transition: 0.5s;
+}
+
+button span:nth-child(1) {
+width: 100%;
+height: 2px;
+top: 0;
+left: -100%;
+}
+button span:nth-child(2) {
+width: 100%;
+height: 2px;
+bottom: 0;
+right: -100%;
+
+}
+button span:nth-child(3) {
+width: 10px;
+height: 100%;
+bottom: -100%;
+left: 0;
+}
+button span:nth-child(4) {
+width: 10px;
+height: 100%;
+top: -100%;
+right: 0;
+}
+
+button:hover span:nth-child(1) {
+left: 0;
+}
+
+button:hover span:nth-child(2) {
+right: 0;
+}
+
+button:hover span:nth-child(3) {
+bottom: 0;
+}
+button:hover span:nth-child(4) {
+  top: 0;
+ }
